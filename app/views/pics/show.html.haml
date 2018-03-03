@@ -2,7 +2,7 @@
 %p= @pic.description
 %p
 Picture Uploaded By ==>> 
-%b= @pic.user.email
+%b= @pic.user.try(:email)
 
 %br
 = link_to "Back", root_path
