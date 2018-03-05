@@ -37,6 +37,7 @@ gem 'devise', '~> 4.4', '>= 4.4.1'
 #gem 'paperclip', '~> 4.2.0'
 gem 'paperclip', '~> 5.2', '>= 5.2.1'
 gem 'masonry-rails', '~> 0.2.4'
+gem 'acts_as_votable', '~> 0.11.1'
 
 
 # Use Capistrano for deployment
